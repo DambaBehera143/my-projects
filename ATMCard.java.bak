@@ -1,0 +1,15 @@
+class ATMMachine{
+	public static void main(String[]args) throw Exception {
+		ATMCard card;
+		
+		Card=new SBICard();
+		Card.withdraw(4000);
+		
+		Card=new HDFCCard();
+		Card.withdraw(4000);
+		
+		Card=new ICICICard();
+		Card.withdraw(4000);
+		
+		}
+}
